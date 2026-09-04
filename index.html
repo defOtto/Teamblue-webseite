@@ -51,6 +51,19 @@
       cursor: pointer;
     }
     .lang button.active { background: var(--white); color: var(--blue-dark); }
+    .badge {
+      display: inline-block;
+      background: rgba(255,255,255,0.12);
+      border: 1px solid rgba(255,255,255,0.25);
+      border-radius: 999px;
+      padding: 6px 16px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #cfe0ff;
+      margin-bottom: 20px;
+    }
     h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 20px; }
     p { font-size: 1.1rem; color: #eaf2ff; margin: 0 0 20px; }
     .stats {
@@ -85,6 +98,7 @@
 
   <div class="wrap">
     <img src="assets/logo/logo.png" alt="Teamblue Logo" />
+    <div class="badge" data-i18n="badge">Website im Aufbau</div>
     <h1 data-i18n="headline">Ihre Marke. Online in ganz Europa.</h1>
     <p data-i18n="intro">Teamblue bringt Ihre Marke in Europa online. Wir betreuen Amazon, Marketing und Logistik &ndash; ganz nach Ihren Anforderungen, aus einer Hand.</p>
 
@@ -99,7 +113,7 @@
       </div>
     </div>
 
-    <p data-i18n="cta">Neugierig, wie wir Ihre Marke wachsen lassen? Schreiben Sie uns eine E-Mail oder rufen Sie uns an &ndash; wir freuen uns auf Sie.</p>
+    <p data-i18n="cta">Unsere neue Website befindet sich noch im Aufbau. Neugierig, wie wir Ihre Marke wachsen lassen? Schreiben Sie uns schon jetzt eine E-Mail oder rufen Sie uns an &ndash; wir freuen uns auf Sie.</p>
 
     <div class="contact">
       <span data-i18n="address">Teamblue GmbH &middot; Chemnitzer Str. 6 &middot; 14612 Falkensee</span>
@@ -115,22 +129,24 @@
       de: {
         title: "Teamblue GmbH",
         description: "Teamblue bringt Ihre Marke in Europa online und betreut Amazon, Marketing und Logistik nach Ihren Anforderungen.",
+        badge: "Website im Aufbau",
         headline: "Ihre Marke. Online in ganz Europa.",
         intro: "Teamblue bringt Ihre Marke in Europa online. Wir betreuen Amazon, Marketing und Logistik \u2013 ganz nach Ihren Anforderungen, aus einer Hand.",
         statYears: "Jahre Erfahrung",
         statClients: "zufriedene Kunden",
-        cta: "Neugierig, wie wir Ihre Marke wachsen lassen? Schreiben Sie uns eine E-Mail oder rufen Sie uns an \u2013 wir freuen uns auf Sie.",
+        cta: "Unsere neue Website befindet sich noch im Aufbau. Neugierig, wie wir Ihre Marke wachsen lassen? Schreiben Sie uns schon jetzt eine E-Mail oder rufen Sie uns an \u2013 wir freuen uns auf Sie.",
         address: "Teamblue GmbH \u00b7 Chemnitzer Str. 6 \u00b7 14612 Falkensee",
         rights: "Alle Rechte vorbehalten."
       },
       en: {
         title: "Teamblue GmbH",
         description: "Teamblue takes your brand online across Europe, handling Amazon, marketing and logistics to fit your needs.",
+        badge: "Site under construction",
         headline: "Your brand. Online across Europe.",
         intro: "Teamblue takes your brand online across Europe. We handle Amazon, marketing and logistics \u2013 tailored to your needs, all from one partner.",
         statYears: "years of experience",
         statClients: "happy customers",
-        cta: "Curious how we can grow your brand? Send us an email or give us a call \u2013 we\u2019d love to hear from you.",
+        cta: "Our new website is still under construction. Curious how we can grow your brand? Send us an email or give us a call now \u2013 we\u2019d love to hear from you.",
         address: "Teamblue GmbH \u00b7 Chemnitzer Str. 6 \u00b7 14612 Falkensee",
         rights: "All rights reserved."
       }
