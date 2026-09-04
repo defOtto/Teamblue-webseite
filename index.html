@@ -52,7 +52,9 @@
     }
     .lang button.active { background: var(--white); color: var(--blue-dark); }
     .badge {
-      display: inline-block;
+      display: block;
+      width: fit-content;
+      margin: 0 auto 20px;
       background: rgba(255,255,255,0.12);
       border: 1px solid rgba(255,255,255,0.25);
       border-radius: 999px;
@@ -62,7 +64,6 @@
       letter-spacing: 0.06em;
       text-transform: uppercase;
       color: #cfe0ff;
-      margin-bottom: 20px;
     }
     h1 { font-size: clamp(1.8rem, 4vw, 2.6rem); margin: 0 0 20px; }
     p { font-size: 1.1rem; color: #eaf2ff; margin: 0 0 20px; }
